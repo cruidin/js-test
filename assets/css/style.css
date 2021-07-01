@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@600&family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000000;
+  font-family: "Big Shoulders Stencil Display", cursive;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 20px;
+  width: auto;
+  height: 500px;
+  float: left;
+}
+
+.rainbow {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  height: 700px;
+}
+
+#first-div {
+  background-color: #B90000;
+}
+
+#second-div {
+  background-color: #EB9600;
+}
+
+#third-div {
+  background-color: #F8CC0D;
+}
+
+#fourth-div {
+  background-color: #88B800;
+}
+
+#fifth-div {
+  background-color: #10AC7D;
+}
+
+#sixth-div {
+  background-color: #108AAC;
+}
+
+#seventh-div {
+  background-color: #1034AC;
+}
+
+#eight-div {
+  background-color: #7310AC;
+}
