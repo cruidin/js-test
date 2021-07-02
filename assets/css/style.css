@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-  color: 
+  color:
 }
 
 .container {
@@ -65,7 +65,20 @@ h1 {
   background-color: #7310AC;
 }
 
+#nineth-div {
+  background-color: #7310AC;
+}
+
+#tenth-div {
+  background-color: #7310AC;
+}
+
+
 /* code from js tutorial */
+
+.color {
+  color: var(--clr-primary-5);
+}
 
 .btn-hero {
   text-transform: uppercase;
