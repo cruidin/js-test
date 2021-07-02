@@ -22,6 +22,7 @@ const colorEight = document.querySelector(".color-eight");
 const colorNine = document.querySelector(".color-nine");
 const colorTen = document.querySelector(".color-ten");
 
+// First box
 btn.addEventListener("click", function() {
   let hexColor = "#";
   for(let i = 0; i < 6; i++) {
@@ -31,6 +32,7 @@ colorOne.textContent = hexColor;
 document.getElementById("first-div").style.backgroundColor = hexColor;
 });
 
+// Second box
 btnTwo.addEventListener("click", function() {
   let hexColor = "#";
   for(let i = 0; i < 6; i++) {
@@ -40,6 +42,7 @@ colorTwo.textContent = hexColor;
 document.getElementById("second-div").style.backgroundColor = hexColor;
 });
 
+// Third box
 btnThree.addEventListener("click", function() {
   let hexColor = "#";
   for(let i = 0; i < 6; i++) {
@@ -49,6 +52,7 @@ colorThree.textContent = hexColor;
 document.getElementById("third-div").style.backgroundColor = hexColor;
 });
 
+// Fourth box
 btnFour.addEventListener("click", function() {
   let hexColor = "#";
   for(let i = 0; i < 6; i++) {
@@ -58,6 +62,7 @@ colorFour.textContent = hexColor;
 document.getElementById("fourth-div").style.backgroundColor = hexColor;
 });
 
+// Fifth box
 btnFive.addEventListener("click", function() {
   let hexColor = "#";
   for(let i = 0; i < 6; i++) {
@@ -67,6 +72,7 @@ colorFive.textContent = hexColor;
 document.getElementById("fifth-div").style.backgroundColor = hexColor;
 });
 
+// Sixth box
 btnSix.addEventListener("click", function() {
   let hexColor = "#";
   for(let i = 0; i < 6; i++) {
@@ -74,6 +80,46 @@ btnSix.addEventListener("click", function() {
   }
 colorSix.textContent = hexColor;
 document.getElementById("sixth-div").style.backgroundColor = hexColor;
+});
+
+// Seventh box
+btnSeven.addEventListener("click", function() {
+  let hexColor = "#";
+  for(let i = 0; i < 6; i++) {
+    hexColor += hex[getRandomNumber()];
+  }
+colorSeven.textContent = hexColor;
+document.getElementById("seventh-div").style.backgroundColor = hexColor;
+});
+
+// Seventh box
+btnEight.addEventListener("click", function() {
+  let hexColor = "#";
+  for(let i = 0; i < 6; i++) {
+    hexColor += hex[getRandomNumber()];
+  }
+colorEight.textContent = hexColor;
+document.getElementById("eighth-div").style.backgroundColor = hexColor;
+});
+
+// Nineth box
+btnNine.addEventListener("click", function() {
+  let hexColor = "#";
+  for(let i = 0; i < 6; i++) {
+    hexColor += hex[getRandomNumber()];
+  }
+colorNine.textContent = hexColor;
+document.getElementById("nineth-div").style.backgroundColor = hexColor;
+});
+
+// Tenth box
+btnTen.addEventListener("click", function() {
+  let hexColor = "#";
+  for(let i = 0; i < 6; i++) {
+    hexColor += hex[getRandomNumber()];
+  }
+colorTen.textContent = hexColor;
+document.getElementById("tenth-div").style.backgroundColor = hexColor;
 });
 
 function getRandomNumber() {
